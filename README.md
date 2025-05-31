@@ -78,5 +78,5 @@ The model is trained on the publicly available **PlantSeg** dataset from Kaggle,
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/your-username/cnn-unet-plant-leaf-segmentation.git
+   git clone https://github.com/naomi-afrin/cnn-unet-plant-leaf-segmentation.git
    cd cnn-unet-plant-leaf-segmentation
