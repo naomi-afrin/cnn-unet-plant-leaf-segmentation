@@ -30,7 +30,7 @@ Each row below shows:
 - Ground truth segmentation mask  
 - Predicted segmentation mask by the model
 
-### 🔬 Example 1  
+### 🟢 Example 1  
 ![Sample 1](images/leaf_segmentation_prediction_example_1.png)
 
 ---
@@ -40,7 +40,7 @@ Each row below shows:
 
 ---
 
-### 🍂 Example 3  
+### 🟢 Example 3  
 ![Sample 3](images/leaf_segmentation_prediction_example_1.png)
 
 ---
@@ -56,10 +56,21 @@ Each row below shows:
 ## 📂 Project Structure
 
 - `cnn_unet_leaf_segmentation.ipynb` – Full notebook with training, evaluation, and prediction
-- `plantseg` - Dataset used for training
+- `plantseg/` – ⚠️ Not included due to size. [Download from Kaggle](https://www.kaggle.com/datasets/weitianqi/plantseg)
 - `Demo Images` - Images used for demonstration
 - `images/` – Folder containing sample visualizations
 - `README.md` – This project overview
+
+---
+
+## 🌱 Dataset
+
+The model is trained on the publicly available **PlantSeg** dataset from Kaggle, which contains annotated plant leaf images and corresponding segmentation masks.
+
+📦 **Download here:**  
+[🔗 PlantSeg Dataset on Kaggle](https://www.kaggle.com/datasets/weitianqi/plantseg)
+
+> ⚠️ Note: Due to its large size, the dataset is not included in this repository. After downloading, extract it into a folder named `plantseg1/` and update the path in the notebook accordingly.
 
 ---
 
